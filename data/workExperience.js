@@ -35,7 +35,13 @@ export const workExperience = {
     link: 'https://northcoders.com/',
     role: "Junior Full Stack Software Developer",
     location: null,
-    date: "jul 2023 - Ongoing",
+    date: "jul 2023 - Mar 2023",
     info: "During the 13-week Bootcamp where I learned the fundamentals of Full-Stack Development, I acquired the fundamentals of JavaScript which helped me in creating a back-end service to provide data for a front-end architecture that I have built.\n\nAll throughout the process, I aimed to build clean testable codes by following Test Driven Development process with agile methodologies while both working solo or working with colleagues through pair-programming or in group projects",
+  },
+  Freelance: {
+    role: "Junior Full Stack Software Developer",
+    location: null,
+    date: "Oct 2023 - Ongoing",
+    info: "Learning new technologies and building projects to further develop my skills as a software developer. Occasionally doing freelance work for clients.",
   },
 };
