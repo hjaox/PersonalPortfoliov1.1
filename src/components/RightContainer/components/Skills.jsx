@@ -1,4 +1,4 @@
-import { languages, frontend, backend, testing, others } from "../../../../data/skills";
+import { languages, frontend, backend, testing, otherTech, others } from "../../../../data/skills";
 
 export function Skills() {
   function handleData(data) {
@@ -52,7 +52,7 @@ export function Skills() {
                     duration-500
                     group-hover/info:visible
                     group-hover/info:opacity-100
-                    group-hover/info:delay-500
+                    group-hover/info:delay-100
                     group-hover/info:duration-500
                     hover:opacity-100
                     start-1/2
@@ -75,49 +75,60 @@ export function Skills() {
       <h3 className="text-xl text-slate-200 font-bold lg:hidden">Technical Skills</h3>
       <div className="flex justify-between">
         <div>
-          <section className="flex gap-4 group
+          <section
+            className="flex gap-4 group
           hover:bg-slate-700/50
           p-2
           rounded-md
-          duration-500">
+          duration-500"
+          >
             <h4 className="hover:text-slate-200 duration-500">Languages:</h4>
-            <ul className="group/item flex items-center">{handleData(languages)}</ul>
+            <ul className="group/item flex flex-col items-center">{handleData(languages)}</ul>
           </section>
-          <section className="flex gap-6 group
+          <section
+            className="flex gap-6 group
           hover:bg-slate-700/50
           p-2
           rounded-md
-          duration-500">
+          duration-500"
+          >
             <h4 className="mr-0.5 hover:text-slate-200 duration-500">Front-End:</h4>
             <ul className="group/item">{handleData(frontend)}</ul>
           </section>
         </div>
         <div className="flex justify-between flex-col">
-          <section className="flex gap-4 group
+          <section
+            className="flex gap-4 group
           hover:bg-slate-700/50
           p-2
           rounded-md
-          duration-500">
+          duration-500"
+          >
             <h4 className="hover:text-slate-200 duration-500">Backend:</h4>
             <ul className="group/item">{handleData(backend)}</ul>
           </section>
-          <section className="flex gap-7 group
+          <section
+            className="flex gap-7 group
           hover:bg-slate-700/50
           p-2
           rounded-md
-          duration-500">
+          duration-500"
+          >
             <h4 className="hover:text-slate-200 duration-500">Testing:</h4>
             <ul className="group/item flex flex-col">{handleData(testing)}</ul>
           </section>
         </div>
       </div>
-      <section className="flex gap-12 group
+      <section
+        className="flex gap-12 group
       hover:bg-slate-700/50
       p-2
       rounded-md
-      duration-500">
+      duration-500"
+      >
         <h4 className="hover:text-slate-200 duration-500 mr-1.5">Others:</h4>
         <ul className="group/item">{handleText(others)}</ul>
+        <ul className="group/item flex flex-col">{handleData(otherTech)}</ul>
       </section>
     </section>
   );

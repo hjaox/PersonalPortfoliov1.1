@@ -53,11 +53,7 @@ export const frontend = {
   SCSS: {
     link: "https://sass-lang.com/",
     logo: <FaSass size={20} style={{ alignSelf: "center" }} />,
-  },
-  "React-Stripe": {
-    link: "https://stripe.com/gb",
-    logo: <FaStripe size={20} style={{ alignSelf: "center" }} />,
-  },
+  }
 };
 
 export const backend = {
@@ -88,10 +84,17 @@ export const backend = {
   Nodemailer: {
     link: "https://www.nodemailer.com/",
     logo: <IoLogoNpm size={20} style={{ alignSelf: "center" }} />,
-  },
+  }
+};
+
+export const otherTech = {
   Stripe: {
     link: "https://stripe.com/gb",
     logo: <FaStripe size={20} style={{ alignSelf: "center" }} />,
+  },
+  Firebase: {
+    link: "https://firebase.google.com/",
+    logo: <BiLogoFirebase size={20} style={{ alignSelf: "center" }} />,
   },
 };
 
