@@ -1,7 +1,18 @@
-# Welcome to my portfolio repository.
+# Personal Portfolio v1.1
 
-## v1
-The first version of my portfolio. Made with vanilla HTML, CSS and Javascript. You can view the source code at the vanilla branch of this repository check out the site [here](https://hjaox.github.io/)
+A personal portfolio made by myself to house all my work.
+<br/>
+<br/>
+You may view this app at https://hectorobanana.netlify.app/.
+<br/>
+<br/>
 
-## v1.1
-The latest version of my portfolio. Made with React and JS. You can view the source code at the react branch of this repository or check out the site [here](https://hectorobanana.netlify.app/)
+### Tech Used
+- React
+- Tailwind
+- JavaScript
+<br/>
+<br/>
+
+#### Older versions
+- [Personal Portfolio v1](https://hjaox.github.io/). This was my old porfolio made with vanilla html, css and JavaScript.
