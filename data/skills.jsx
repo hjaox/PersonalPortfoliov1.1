@@ -2,11 +2,22 @@ import { RiJavascriptLine, RiHtml5Line, RiCss3Fill, RiReactjsFill } from "react-
 import { SiAxios, SiPostgresql, SiExpress, SiJest } from "react-icons/si";
 import { IoLogoNpm, IoLogoNodejs } from "react-icons/io";
 import { BiLogoTailwindCss } from "react-icons/bi";
+import { BiLogoMongodb } from "react-icons/bi";
+import { TbBrandTypescript } from "react-icons/tb";
+import { SiRedux } from "react-icons/si";
+import { FaSass } from "react-icons/fa";
+import { FaStripe } from "react-icons/fa6";
+import { SiMongoose } from "react-icons/si";
+import { BiLogoFirebase } from "react-icons/bi";
 
 export const languages = {
   JavaScript: {
     link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
     logo: <RiJavascriptLine size={20} style={{ alignSelf: "center" }} />,
+  },
+  Typescript: {
+    link: "https://www.typescriptlang.org/",
+    logo: <TbBrandTypescript size={20} style={{ alignSelf: "center" }} />,
   },
 };
 
@@ -35,6 +46,18 @@ export const frontend = {
     link: "https://tailwindcss.com/",
     logo: <BiLogoTailwindCss size={20} style={{ alignSelf: "center" }} />,
   },
+  Redux: {
+    link: "https://redux.js.org/",
+    logo: <SiRedux size={20} style={{ alignSelf: "center" }} />,
+  },
+  SCSS: {
+    link: "https://sass-lang.com/",
+    logo: <FaSass size={20} style={{ alignSelf: "center" }} />,
+  },
+  "React-Stripe": {
+    link: "https://stripe.com/gb",
+    logo: <FaStripe size={20} style={{ alignSelf: "center" }} />,
+  },
 };
 
 export const backend = {
@@ -54,6 +77,22 @@ export const backend = {
     link: "https://nodejs.org/en",
     logo: <IoLogoNodejs size={20} style={{ alignSelf: "center" }} />,
   },
+  MongoDB: {
+    link: "https://www.mongodb.com/",
+    logo: <BiLogoMongodb size={20} style={{ alignSelf: "center" }} />,
+  },
+  Mongoose: {
+    link: "https://mongoosejs.com/",
+    logo: <SiMongoose size={20} style={{ alignSelf: "center" }} />,
+  },
+  Nodemailer: {
+    link: "https://www.nodemailer.com/",
+    logo: <IoLogoNpm size={20} style={{ alignSelf: "center" }} />,
+  },
+  Stripe: {
+    link: "https://stripe.com/gb",
+    logo: <FaStripe size={20} style={{ alignSelf: "center" }} />,
+  },
 };
 
 export const testing = {
@@ -67,9 +106,6 @@ export const testing = {
   },
 };
 
-export const hosting = ["Render", "Netlify", "ElephantSQL"];
-
-["Test-Driven Development (TDD)", "Object-Oriented Programming (OOP)", "AGILE", "SCRUM", "Git"];
 export const others = {
   "Test-Driven Development (TDD)": {
     description:
