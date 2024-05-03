@@ -42,6 +42,6 @@ export const workExperience = {
     role: "Junior Full Stack Software Developer",
     location: null,
     date: "Oct 2023 - Ongoing",
-    info: "Learning new technologies and building projects to further develop my skills as a software developer. Occasionally doing freelance work for clients.",
+    info: "Learning new technologies and building projects to further develop my skills as a software developer.",
   },
 };
