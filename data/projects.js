@@ -35,7 +35,7 @@ export const projects = {
   "My Personal Portfolio v1.1": {
     info: "I built this portfolio to house all my projects. Made with React and Tailwind CSS.",
     tech: ["React", "Tailwind CSS"],
-    sourceCode: "https://github.com/hjaox/hjaox.github.io/tree/react",
+    sourceCode: "https://github.com/hjaox/PersonalPortfoliov1.1",
     appLink: "https://hectorobanana.netlify.app/",
     preview: "./media/projects/personalPortfoliov1.1-preview.png",
     shortVid: "",
