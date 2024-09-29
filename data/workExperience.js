@@ -44,4 +44,11 @@ export const workExperience = {
     date: "Oct 2023 - Ongoing",
     info: "Learning new technologies and building projects to further develop my skills as a software developer.",
   },
+  "Create Digital Solutions": {
+    link: 'https://createdigitalsolutions.com/',
+    role: "Junior Full Stack Software Developer",
+    location: "Remote",
+    date: "May 2024 - Ongoing",
+    info: "The role includes working across multiple clients, based remotely. The vast majority of my time is spent developing or maintaining websites and apps for our SME clients to ensure effective delivery of a fast-paced environtment.",
+  },
 };

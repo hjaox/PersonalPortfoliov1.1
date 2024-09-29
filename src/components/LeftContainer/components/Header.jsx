@@ -5,10 +5,10 @@ export default function Header() {
                 Hector Obanana
             </h1>
             <h2 className="text-2xl font-bold text-slate-200 tracking-tight mt-1">
-                Junior Software Developer
+                Junior Full-Stack Software Developer
             </h2>
             <p className="mt-3">
-                Formerly worked in the electrical engineering field, now pursuing a career in software development industry.
+                I develop and maintain websites and apps for SME clients in a fast-paced environment.
             </p>
         </header>
     )
